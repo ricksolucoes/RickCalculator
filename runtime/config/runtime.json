@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "project": "RickCalculator",
+  "runtime_root": "runtime",
+  "status_file": "runtime/status/status.json",
+  "task_root": "runtime/tasks",
+  "default_platform": "Win32",
+  "development_configuration": "Debug",
+  "release_configuration": "Release",
+  "build_specs_runtime_dependency": false,
+  "legacy_agents_in_normal_flow": false
+}

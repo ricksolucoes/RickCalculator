@@ -1,0 +1,42 @@
+﻿{
+    "schema_version":  1,
+    "task_id":  "TASK-20261009-161654",
+    "original_request":  "Crie a calculadora de somar.",
+    "task_status":  "IN_PROGRESS",
+    "current_stage":  "BLOCKER_RESOLUTION",
+    "current_agent":  "UI_QA",
+    "current_gate":  "BLOCKED",
+    "open_blockers":  [
+                          {
+                              "id":  "BLOCKER-UIQA-001",
+                              "raised_by":  "UI_QA",
+                              "owner":  "UI_QA",
+                              "status":  "OPEN",
+                              "issue":  "Buttons render truncated accessible captions and lack accent",
+                              "evidence":  "runtime/tasks/TASK-20261009-161654/logs/UI_QA_REPORT.md",
+                              "return_to":  "UI_QA"
+                          }
+                      ],
+    "approved_artifacts":  [
+                               "runtime/tasks/TASK-20261009-161654/specs/PRODUCT_BRIEF.md",
+                               "runtime/tasks/TASK-20261009-161654/specs/REQUIREMENTS.md",
+                               "runtime/tasks/TASK-20261009-161654/specs/ACCEPTANCE_CRITERIA.md",
+                               "runtime/tasks/TASK-20261009-161654/specs/UI_SPEC.md",
+                               "runtime/tasks/TASK-20261009-161654/specs/SYSTEM_DESIGN.md",
+                               "runtime/tasks/TASK-20261009-161654/specs/TDD_PLAN.md",
+                               "runtime/tasks/TASK-20261009-161654/logs/CODE_REVIEWER_REVIEW.md",
+                               "runtime/tasks/TASK-20261009-161654/logs/QA_FUNCTIONAL_REPORT.md"
+                           ],
+    "last_handoff":  {
+                         "from":  "QA_FUNCTIONAL",
+                         "to":  "UI_QA",
+                         "status":  "FIX FUNCTIONAL IMPACT PASS",
+                         "artifact":  "runtime/tasks/TASK-20261009-161654/logs/QA_FUNCTIONAL_UIQA001_REPORT.md",
+                         "open_blockers":  [
+                                               "BLOCKER-UIQA-001"
+                                           ]
+                     },
+    "human_decision_required":  false,
+    "build_specs_runtime_dependency":  false,
+    "updated_at":  "2026-10-09T18:45:57.6976336-03:00"
+}
