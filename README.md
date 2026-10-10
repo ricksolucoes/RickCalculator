@@ -1,6 +1,6 @@
 ﻿# 🧮 RickCalculator
 
-**English** | [Português (Brasil)](readme_PTBr.md)
+**English** | [Português (Brasil)](README_PTBr.md)
 
 ![Delphi](https://img.shields.io/badge/Delphi-10.x%2B-red?style=flat-square)
 ![Validated](https://img.shields.io/badge/validated-Delphi%2010.3%20%7C%2010.4%20%7C%2012-red?style=flat-square)
