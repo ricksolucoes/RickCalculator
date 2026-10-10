@@ -1,10 +1,1 @@
-{
-  "schema_version": 1,
-  "spec": "SPEC-127_TEAM_READINESS",
-  "contract_readiness": "PASS",
-  "team_ready": true,
-  "open_readiness_blockers": 0,
-  "powershell_execution_in_current_environment": "not_available",
-  "prompt_real_authorized": true,
-  "recommended_first_prompt": "Crie a calculadora de somar."
-}
+{}

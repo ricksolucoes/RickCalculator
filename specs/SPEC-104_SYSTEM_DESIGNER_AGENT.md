@@ -60,7 +60,7 @@ Human escalation: somente quando houver blocker real não resolvível por fonte 
 ## 10. Regras
 
 1. Respeitar View→Controller→Engine→Math.
-2. Não criar ICalculatorEngine.
+2. Não criar IRickCalculatorEngine.
 3. Bloquear decisão não suportada.
 4. Entregar design ao TDD Planner.
 5. Toda dúvida fora de autoridade gera blocker/handoff.

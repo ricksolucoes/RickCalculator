@@ -59,14 +59,14 @@ Quando aplicável:
 
 ```text
 View
-→ ICalculatorController
-→ TCalculatorController
-→ TCalculatorEngine
-→ ICalculatorMath
-→ TCalculatorMath
+→ IRickCalculatorController
+→ TRickCalculatorController
+→ TRickCalculatorEngine
+→ IRickCalculatorMath
+→ TRickCalculatorMath
 ```
 
-- não aceitar `ICalculatorEngine`;
+- não aceitar `IRickCalculatorEngine`;
 - não aceitar matemática na View.
 
 ### Toxicity

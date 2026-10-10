@@ -562,7 +562,7 @@ File
 Or from a terminal:
 
 ```bat
-cd D:\Projects\RickCalculator
+cd C:\Projects\RickCalculator
 code .
 ```
 
@@ -650,7 +650,7 @@ Claude Code can be used with a compatible Claude subscription or Anthropic Conso
 ### 5. Open the RickCalculator Root
 
 ```bat
-cd D:\Projects\RickCalculator
+cd C:\Projects\RickCalculator
 code .
 ```
 
@@ -1193,7 +1193,7 @@ Agents follow principles such as:
 
 ```text
 ┌───────────────────────────────┐
-│          CALCULATOR           │
+│         RICK CALCULATOR       │
 ├───────────────────────────────┤
 │                               │
 │                     125.00    │

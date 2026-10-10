@@ -540,7 +540,7 @@ File
 Ou pelo terminal:
 
 ```bat
-cd D:\Projetos\RickCalculator
+cd C:\Projetos\RickCalculator
 code .
 ```
 
@@ -626,7 +626,7 @@ No primeiro uso, conclua o fluxo de autenticação apresentado pelo Claude Code.
 ### 5. Abra a raiz do RickCalculator
 
 ```bat
-cd D:\Projetos\RickCalculator
+cd C:\Projetos\RickCalculator
 code .
 ```
 
@@ -1163,7 +1163,7 @@ Os agentes seguem princípios como:
 
 ```text
 ┌───────────────────────────────┐
-│          CALCULADORA          │
+│         RICK CALCULATOR       │
 ├───────────────────────────────┤
 │                               │
 │                     125,00    │

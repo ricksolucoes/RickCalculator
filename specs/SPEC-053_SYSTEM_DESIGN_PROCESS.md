@@ -61,7 +61,7 @@ Human escalation: somente quando houver blocker real não resolvível por fonte 
 ## 10. Regras
 
 1. Preservar arquitetura-base.
-2. Não criar ICalculatorEngine.
+2. Não criar IRickCalculatorEngine.
 3. Decisão que altera requisito retorna ao Requirements Analyst.
 4. Decisão visual retorna ao Product Designer.
 5. Design deve mapear responsabilidades para units/camadas sem antecipar implementação funcional.

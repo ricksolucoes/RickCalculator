@@ -9,21 +9,21 @@ Produzir `SYSTEM_DESIGN` técnico do RickCalculator preservando a arquitetura-ba
 ```text
 View
   ↓
-ICalculatorController
+IRickCalculatorController
   ↓
-TCalculatorController
+TRickCalculatorController
   ↓
-TCalculatorEngine
+TRickCalculatorEngine
   ↓
-ICalculatorMath
+IRickCalculatorMath
   ↓
-TCalculatorMath
+TRickCalculatorMath
 ```
 
 Regras:
 
-- `TCalculatorEngine` é detalhe concreto interno;
-- **não criar `ICalculatorEngine`**;
+- `TRickCalculatorEngine` é detalhe concreto interno;
+- **não criar `IRickCalculatorEngine`**;
 - View depende do Controller, não de Math/Engine concreto;
 - regra matemática não fica na View;
 - Controller coordena;
@@ -224,7 +224,7 @@ TDD_PLANNER
 
 ```text
 [PASS] arquitetura-base preservada
-[PASS] nenhum ICalculatorEngine
+[PASS] nenhum IRickCalculatorEngine
 [PASS] nenhuma regra nova criada
 [PASS] dependências e responsabilidades inequívocas
 [PASS] design é implementável sem adivinhação

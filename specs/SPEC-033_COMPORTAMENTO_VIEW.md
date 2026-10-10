@@ -60,7 +60,7 @@ Human escalation: somente quando houver blocker real não resolvível por fonte 
 
 1. View não soma, subtrai, multiplica ou divide.
 2. View não decide repeated equals, CE, erro ou sequência.
-3. View chama ICalculatorController.
+3. View chama IRickCalculatorController.
 4. View apresenta a string devolvida pelo Controller.
 5. Integração com controles deve ser fina.
 

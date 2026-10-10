@@ -26,11 +26,11 @@ O projeto já consolidou uma separação específica para View, Controller, Engi
 ### IN SCOPE
 
 - View
-- ICalculatorController
-- TCalculatorController
-- TCalculatorEngine
-- ICalculatorMath
-- TCalculatorMath
+- IRickCalculatorController
+- TRickCalculatorController
+- TRickCalculatorEngine
+- IRickCalculatorMath
+- TRickCalculatorMath
 
 ### OUT OF SCOPE
 
@@ -61,10 +61,10 @@ Human escalation: somente quando houver blocker real não resolvível por fonte 
 
 ## 10. Regras
 
-1. Fluxo: View → ICalculatorController → TCalculatorController → TCalculatorEngine → ICalculatorMath → TCalculatorMath.
-2. TCalculatorEngine é detalhe concreto interno; não criar ICalculatorEngine.
-3. ICalculatorController expõe comandos fluentes e Build: string.
-4. ICalculatorMath usa interface e Build: Double conforme padrão aprovado.
+1. Fluxo: View → IRickCalculatorController → TRickCalculatorController → TRickCalculatorEngine → IRickCalculatorMath → TRickCalculatorMath.
+2. TRickCalculatorEngine é detalhe concreto interno; não criar IRickCalculatorEngine.
+3. IRickCalculatorController expõe comandos fluentes e Build: string.
+4. IRickCalculatorMath usa interface e Build: Double conforme padrão aprovado.
 5. View depende do Controller, não de Math/Engine concreto.
 6. System Designer pode detalhar composição sem contrariar essa base.
 

@@ -153,8 +153,8 @@ Use o tipo como namespace:
 
 ```text
 TStatusPedido.Pendente
-TCalculatorOperation.Add
-TCalculatorCommand.Clear
+TRickCalculatorOperation.Add
+TRickCalculatorCommand.Clear
 ```
 
 ---
